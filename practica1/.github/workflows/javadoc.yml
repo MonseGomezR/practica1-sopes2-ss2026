@@ -26,6 +26,7 @@ jobs:
           java-version: '17'
 
       - name: Generar Javadoc
+        working-directory: practica1
         run: mvn javadoc:javadoc
 
       - name: Configurar GitHub Pages
@@ -34,7 +35,7 @@ jobs:
       - name: Subir documentación
         uses: actions/upload-pages-artifact@v3
         with:
-          path: target/reports/apidocs
+          path: practica1/target/reports/apidocs
 
   deploy:
     environment:
