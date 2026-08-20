@@ -3,6 +3,11 @@
 Práctica de Sistemas Operativos 2.
 Maria Monserrat Gomez Rabatu - 202030849
 
+## Aviso
+El PDF de la practica esta incluido en este repo debido a error de carga en multiples ocaciones por parte de la pagina Moodle
+<img width="397" height="157" alt="imagen" src="https://github.com/user-attachments/assets/61605e2c-bb84-4225-afd8-e042a07fbfea" />
+
+
 ## Descripción
 
 Este proyecto implementa un simulador de algoritmos de planificación
@@ -50,8 +55,13 @@ se representan mediante `IDLE`.
 - Maven
 - Lombok
 
-## Estructura del proyecto
+## Documentación Javadoc
 
+La documentación técnica del proyecto fue generada utilizando
+[Javadoc](https://docs.oracle.com/en/java/javase/17/docs/api/).
+**[Ver documentación Javadoc](https://monsegomezr.github.io/practica1-sopes2-ss2026/)**
+
+## Estructura del proyecto
 ```text
 src/
 └── main/
